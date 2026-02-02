@@ -113,7 +113,7 @@
 <body>
     <div class="container">
         <h1>Time From Now</h1>
-        <p class="target-date">Until I See You!</p>
+        <p class="target-date">Until Our Fridate!</p>
         
         <div id="countdown" class="countdown">
             <div class="time-unit">
@@ -144,7 +144,7 @@
             // December 13, 2025, 2:30 PM in Central Time
             // Central Time is UTC-6 (CST) or UTC-5 (CDT)
             // In December, it will be CST (UTC-6)
-            const targetDateString = '2026-01-25T11:00:00-06:00';
+            const targetDateString = '2026-02-06T19:00:00-06:00';
             return new Date(targetDateString);
         }
 
@@ -155,7 +155,7 @@
 
             // Check if countdown has finished
             if (difference <= 0) {
-                document.getElementById('countdown').innerHTML = '<div class="finished">Time\'s Up! 🎉</div>';
+                document.getElementById('countdown').innerHTML = '<div class="finished">We Are Together! 🎉</div>';
                 return;
             }
 
